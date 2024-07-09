@@ -20,19 +20,10 @@ module.exports = new EntitySchema({
         type: {
             type: 'varchar'
         },
-        latitude_deg: {
-            type: 'double'
-        },
-        longitude_deg: {
-            type: 'double'
-        },
-        elevation_ft: {
+        city_id: {
             type: 'int'
         },
         country_id: {
-            type: 'int'
-        },
-        city_id: {
             type: 'int'
         },
         continent_id:{
@@ -40,6 +31,15 @@ module.exports = new EntitySchema({
         },
         website_url:{
             type:'varchar'
+        },
+        latitude_deg: {
+            type: 'double'
+        },
+        longitude_deg: {
+            type: 'double'
+        },
+        elevation_ft: {
+            type: 'double'
         },
         wikipedia_link:{
             type:'varchar'

@@ -62,6 +62,6 @@ AppDataSource.initialize().then(() => {
     });
 
     app.listen(port, () => {
-        console.log(`Server running at http://localhost:${port}/`);
+        console.log(`Server running at http://localhost:${port}`);
     });
 }).catch(error => console.log(error));
